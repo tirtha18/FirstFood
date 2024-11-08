@@ -54,7 +54,7 @@ export default function Recipe() {
     } finally {
       setLoading(false);
     }
-  }, 300);
+  },500);
 
   const getStartingRecipeCards = async () => {
     setLoading(true);
@@ -86,7 +86,7 @@ export default function Recipe() {
           <h1 className="font-semibold text-6xl font-heading mb-14 absolute">
             What's Cooking?
           </h1>
-          <p className="w-1/2 text-xl text-center mt-40">
+          <p className="md:block hidden w-1/2 text-xl text-center mt-40">
             Have a main ingredient in mind? Explore delicious recipes crafted
             around what you have! Just enter your ingredient in the search bar
             below and get started!
@@ -108,7 +108,7 @@ export default function Recipe() {
             Recipes!
           </span>
         </h1>
-        <p className="mt-6 w-1/2 text-center ">
+        <p className="mt-6 w-1/2 text-center md:block hidden">
           Discover our top-rated recipes, loved by home cooks and foodies! From
           comforting classics to exciting new flavors, each recipe is crafted to
           impress. Try one today and find your new favorite dish!

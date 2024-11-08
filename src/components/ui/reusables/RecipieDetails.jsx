@@ -59,7 +59,7 @@ export default function RecipieDetails({ handleOnClose, activeRecipe }) {
             <Tabs.Content value="ingredients">
               {/* Ingredients */}
               <Text size="3" color="red" className="font-semibold font-heading">
-                List of ingredients will go here.
+                Here is your list of ingredients.
               </Text>
               <ul
                 className="flex flex-col mt-1 mb-4 max-h-screen overflow-y-scroll "
@@ -77,10 +77,9 @@ export default function RecipieDetails({ handleOnClose, activeRecipe }) {
                 ))}
               </ul>
             </Tabs.Content>
-
             <Tabs.Content
               value="instructions"
-              className=" flex flex-col space-y-1 mb-4"
+              className=" flex flex-col space-y-2 mb-4"
             >
               <Text size="3" color="red" className="font-semibold font-heading">
                 Here are the instructions for your recipe.

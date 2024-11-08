@@ -10,7 +10,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-      <nav className="w-screen flex flex-row  justify-center md:justify-between  bg-gray-100 bg-opacity-90 border-b border-gray-800 h-24 items-center px-10 md:px-20 lg:px-44 z-10 shadow-lg">
+      <nav className="w-screen flex flex-row  justify-center md:justify-between  bg-gray-100 bg-opacity-90 border-b border-gray-800 h-24 items-center px-10 md:px-20 lg:px-44 z-50 shadow-lg">
         <h1 className="md:block underline hidden text-red-600 font-semibold text-6xl hover:scale-105 duration-150 font-allura cursor-pointer">
           First Food
         </h1>

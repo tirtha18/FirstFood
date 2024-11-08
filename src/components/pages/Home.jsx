@@ -1,11 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faTwitter,
-  faInstagram,
-  faLinkedinIn,
-} from "@fortawesome/free-brands-svg-icons";
+import Footer from "../layout/Footer";
 import { useNavigate } from "react-router-dom";
 const featuredRecipes = [
   {
@@ -83,44 +77,7 @@ export default function Home() {
           </div>
         </section>
         {/* Footer Section */}
-        <footer className="bg-gray-800 text-white py-4 text-center">
-          <p>&copy; 2024 First Food. All rights reserved.</p>
-
-          <div className="flex justify-center space-x-4 mt-2">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-400"
-            >
-              <FontAwesomeIcon icon={faFacebookF} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-400"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-400"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-400"
-            >
-              <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </div>
   );
