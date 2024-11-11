@@ -32,7 +32,7 @@ To get started with the First Food application, follow these steps:
 
 -  Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/first-food.git
+   git clone https://github.com/tirtha18/FirstFood.git
 
    
 -  Install the dependencies:
