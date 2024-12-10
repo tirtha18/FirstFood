@@ -7,7 +7,6 @@ First Food is a React + Vite application designed to help users discover delicio
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usa
 - [Contact](#contact)
 
 ## Features
